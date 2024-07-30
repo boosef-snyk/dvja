@@ -12,6 +12,13 @@
 			"installGradle": "false"
 		},
 		"ghcr.io/devcontainers-contrib/features/snyk-cli:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"snyk-security.snyk-vulnerability-scanner"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
